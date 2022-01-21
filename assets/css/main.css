@@ -98,7 +98,7 @@ input, select, textarea {
 	}
 
 	body {
-		background: #312450;
+		background: #333333;
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -197,10 +197,10 @@ input, select, textarea {
 		}
 
 			h1.major:after {
-				background-image: -moz-linear-gradient(to right, #5e42a6, #b74e91);
-				background-image: -webkit-linear-gradient(to right, #5e42a6, #b74e91);
-				background-image: -ms-linear-gradient(to right, #5e42a6, #b74e91);
-				background-image: linear-gradient(to right, #5e42a6, #b74e91);
+				background-image: -moz-linear-gradient(to right, #008800, #0097ff);
+				background-image: -webkit-linear-gradient(to right, #008800, #0097ff);
+				background-image: -ms-linear-gradient(to right, #008800, #0097ff);
+				background-image: linear-gradient(to right, #008800, #0097ff);
 				-moz-transition: max-width 0.2s ease;
 				-webkit-transition: max-width 0.2s ease;
 				-ms-transition: max-width 0.2s ease;
@@ -3234,33 +3234,33 @@ input, select, textarea {
 				}
 
 			}
-
+	/* Subpage wrappers */
 		.wrapper.alt {
-			background-color: #261c3e;
+			background-color: #000000;
 		}
 
 		.wrapper.style1 {
-			background-color: #5e42a6;
+			background-color: #929c46;
 		}
 
 		.wrapper.style1-alt {
-			background-color: #493382;
+			background-color: #000000;
 		}
 
 		.wrapper.style2 {
-			background-color: #5052b5;
+			background-color: #50a6b5;
 		}
 
 		.wrapper.style2-alt {
-			background-color: #3e4094;
+			background-color: #3e948d;
 		}
 
 		.wrapper.style3 {
-			background-color: #b74e91;
+			background-color: #577334;
 		}
 
 		.wrapper.style3-alt {
-			background-color: #953d75;
+			background-color: #577334;
 		}
 
 		.wrapper.fullscreen {
@@ -3363,14 +3363,14 @@ input, select, textarea {
 			opacity: 0;
 		}
 
-/* Header */
+/* Header (Used by Subpages)*/
 
 	#header {
 		display: -moz-flex;
 		display: -webkit-flex;
 		display: -ms-flex;
 		display: flex;
-		background-color: #5e42a6;
+		background-color: #47a642;
 		cursor: default;
 		padding: 1.75em 2em;
 	}
